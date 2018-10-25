@@ -1,13 +1,14 @@
-#background-secondary{
+#background-secondary {
   background-color: lightyellow;
   border-radius: 5px;
   padding: 10px;
-  margin: 5px;
-}
-.background-five{
+  margin: 5px; }
+
+.background-five {
   background-color: mediumpurple;
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
-  color: white;
-}
+  color: white; }
+
+/*# sourceMappingURL=projects.component.css.map */

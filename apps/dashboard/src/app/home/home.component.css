@@ -1,11 +1,12 @@
 .mat-background-secondary {
   background-color: lightyellow;
   border-radius: 5px;
-  padding: 10px;
-}
-#mat-backgrnd-four{
+  padding: 10px; }
+
+#mat-backgrnd-four {
   background-color: mediumpurple;
   border-radius: 5px;
   padding: 10px;
-  margin: 5px;
-}
+  margin: 5px; }
+
+/*# sourceMappingURL=home.component.css.map */
