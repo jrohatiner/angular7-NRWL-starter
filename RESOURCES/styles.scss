@@ -1,4 +1,8 @@
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+$mdc-theme-primary: mediumpurple;
+$mdc-theme-secondary: yellow;
+$mdc-theme-background: #fff;
+
 html {
     height: 100%;
 }

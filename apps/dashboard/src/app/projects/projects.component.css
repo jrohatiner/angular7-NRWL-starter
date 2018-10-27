@@ -1,3 +1,4 @@
+/*@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';*/
 #background-secondary {
   background-color: lightyellow;
   border-radius: 5px;
@@ -9,6 +10,11 @@
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
-  color: white; }
+  color: white;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48); }
+
+full-width mdc-theme--on-surface {
+  color: white;
+  font-size: 1em; }
 
 /*# sourceMappingURL=projects.component.css.map */

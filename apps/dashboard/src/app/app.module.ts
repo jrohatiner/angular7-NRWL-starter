@@ -9,9 +9,10 @@ import { UiLoginModule } from '@workshop/ui-login';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DocumentationComponent } from './documentation/documentation.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DocumentationComponent],
   imports: [
     BrowserModule,
     NxModule.forRoot(),
