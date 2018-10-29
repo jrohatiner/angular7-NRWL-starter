@@ -4,9 +4,9 @@ import { LoginComponent } from '@workshop/ui-login';
 
 const routes: Routes = [
   { path: '', loadChildren: './home/home.module#HomeModule' },
-  { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
   { path: 'customers', loadChildren: './customers/customers.module#CustomersModule' },
   { path: 'documentation', loadChildren: './documentation/documentation.module#DocumentationModule' },
+  { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
   { path: 'login', component: LoginComponent }
 ];
 

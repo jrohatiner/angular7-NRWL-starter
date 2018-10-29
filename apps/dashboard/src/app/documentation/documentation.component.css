@@ -1,3 +1,45 @@
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+*/
+.mat-background-secondary {
+  background-color: lightyellow;
+  border-radius: 5px;
+  padding: 10px; }
+
+#mat-backgrnd-six {
+  background-color: mediumpurple;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-size: 1em;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48); }
+
+#mat-backgrnd-seven {
+  background-color: mediumpurple;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-size: 1em;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48); }
+
+#mat-backgrnd-eight {
+  background-color: mediumpurple;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-size: 1em;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48); }
+
+#mat-backgrnd-nine {
+  background-color: mediumpurple;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-size: 1em;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48); }
 
 /*# sourceMappingURL=documentation.component.css.map */

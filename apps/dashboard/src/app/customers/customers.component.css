@@ -1,9 +1,10 @@
 .mat-background-secondary {
-  background-color: lightyellow;
+  background-color: mediumpurple;
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
-  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48); }
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48);
+  color: white; }
 
 #mat-backgrnd-three {
   background-color: mediumpurple;

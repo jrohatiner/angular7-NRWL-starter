@@ -12,5 +12,6 @@ export class AppComponent {
     { path: '/', icon: 'home', title: 'Home'},
     { path: '/customers', icon: 'face', title: 'Customer'},
     { path: '/projects', icon: 'work', title: 'Projects'},
+    { path: '/documentation', icon: 'note', title: 'Documentation'},
   ]
 }
