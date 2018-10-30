@@ -3,7 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { DocumentationComponent } from './documentation.component';
 
 const routes: Routes = [
-  {path:'', component: DocumentationComponent}
+  { path: '', component: DocumentationComponent },
+  { path: '', loadChildren: './documentation/documentation.module#DocumentationModule' },
+  { path: 'getstarted', loadChildren: './getstarted/getstarted.module#GetStartedModule' },
+  { path: 'partone', loadChildren: './partone/partone.module#PartOneModule' }
 ];
 
 @NgModule({

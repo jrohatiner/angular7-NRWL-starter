@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Angular Core Workshop';
+  title = 'Angular Core Sample App';
 
   links = [
     { path: '/', icon: 'home', title: 'Home'},

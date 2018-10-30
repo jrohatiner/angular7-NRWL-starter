@@ -7,7 +7,10 @@ const routes: Routes = [
   { path: 'customers', loadChildren: './customers/customers.module#CustomersModule' },
   { path: 'documentation', loadChildren: './documentation/documentation.module#DocumentationModule' },
   { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
-  { path: 'login', component: LoginComponent }
+  { path: 'getstarted', loadChildren: './getstarted/getstarted.module#GetstartedModule' },
+  { path: 'partone', loadChildren: './partone/partone.module#PartoneModule' },
+  { path: 'login', component: LoginComponent },
+  { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 
 @NgModule({
