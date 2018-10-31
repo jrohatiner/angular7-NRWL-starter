@@ -1,0 +1,27 @@
+
+<mat-card class="background-five">
+  <mat-card-header>
+    <mat-card-title>
+      <h1>Projects</h1>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item
+        *ngFor="let project of projects | async"
+        (click)="selected.emit(project)">
+        <h3 mat-line>
+          {{project.title}}
+        </h3>
+        <p mat-line>
+          {{project.details}}
+        </p>
+        <button *ngIf="!readonly" mat-icon-button
+                (click)="delete.emit(project);$event.stopImmeduatePropagation();">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
+
