@@ -4,6 +4,7 @@ import { GetstartedComponent } from './getstarted.component';
 
 const routes: Routes = [
   {path:'', component: GetstartedComponent}
+
 ];
 
 @NgModule({

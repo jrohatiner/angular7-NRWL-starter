@@ -97,7 +97,7 @@
       "title": "Project One",
       "details": "This is a sample project",
       "percentComplete": 20,
-      "approved": false,
+      "approved": true,
       "startDate": null,
       "targetDate": null,
       "completionDate": null,
@@ -149,6 +149,27 @@
       "details": "kjghjfghg",
       "percentComplete": 60,
       "approved": false
+    },
+    {
+      "id": "Yvzgj5m",
+      "title": "project myproject",
+      "details": "I'm a project",
+      "percentComplete": 90,
+      "approved": true
+    },
+    {
+      "id": "IzosmaU",
+      "title": "project 4",
+      "details": "gyfgfjklkj",
+      "percentComplete": 14,
+      "approved": true
+    },
+    {
+      "id": "1l~p7ln",
+      "title": "six",
+      "details": "I'm six",
+      "percentComplete": 71,
+      "approved": true
     }
   ]
 }

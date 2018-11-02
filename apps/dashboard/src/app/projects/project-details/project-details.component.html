@@ -1,14 +1,13 @@
-
-<mat-card class="background-five">
+<mat-card>
   <mat-card-header>
     <mat-card-title>
       <h1>
-        <span *ngIf="currentProject.id; else elseBlock">{{currentProject.title}}</span>
+        <span *ngIf="currentProject.id; else elseBlock">{{originalTitle}}</span>
         <ng-template #elseBlock>Select a Project</ng-template>
       </h1>
     </mat-card-title>
   </mat-card-header>
-  <form (submit)="saveProject(currentProject)">
+  <form (submit)="saved.emit(currentProject)">
     <mat-card-content>
       <mat-form-field class="full-width">
         <input matInput placeholder="Title" [(ngModel)]="currentProject.title" type="text" name="title">
@@ -18,8 +17,7 @@
       </mat-form-field>
       <section class="full-width">
         <h4>{{currentProject.percentComplete}}% Complete</h4>
-        <mat-slider class="full-width mdc-theme--on-surface" min="0" max="100" thumbLabel name="percentComplete"
-                    [(ngModel)]="currentProject.percentComplete">
+        <mat-slider class="full-width" min="0" max="100" thumbLabel name="percentComplete" [(ngModel)]="currentProject.percentComplete">
         </mat-slider>
       </section>
       <section>
@@ -29,9 +27,8 @@
       </section>
     </mat-card-content>
     <mat-card-actions>
-      <button type="submit" mat-button>Save</button>
-      <button type="button" mat-button>Cancel</button>
+      <button type="submit" mat-button color="primary">Save</button>
+      <button type="button" mat-button (click)="cancelled.emit(currentProject)">Cancel</button>
     </mat-card-actions>
   </form>
 </mat-card>
-
