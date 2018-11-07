@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yBAA0B;EACxB,gBAAgB,EAAE,YAAY;EAC9B,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,GAAG;EACX,UAAU,EAAE,mCAAmC;EAC/C,KAAK,EAAE,KAAK",
+"sources": ["projects-text.component.scss"],
+"names": [],
+"file": "projects-text.component.css"
+}
