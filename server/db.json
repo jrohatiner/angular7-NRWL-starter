@@ -137,13 +137,6 @@
       "customerId": "1"
     },
     {
-      "id": "HZQLauT",
-      "title": "project 4",
-      "details": "jfyffhg",
-      "percentComplete": 20,
-      "approved": false
-    },
-    {
       "id": "A0nzVFz",
       "title": "project 5",
       "details": "kjghjfghg",
@@ -151,24 +144,10 @@
       "approved": false
     },
     {
-      "id": "Yvzgj5m",
-      "title": "project myproject",
-      "details": "I'm a project",
-      "percentComplete": 90,
-      "approved": true
-    },
-    {
-      "id": "IzosmaU",
+      "id": "p_YSqWY",
       "title": "project 4",
-      "details": "gyfgfjklkj",
-      "percentComplete": 14,
-      "approved": true
-    },
-    {
-      "id": "1l~p7ln",
-      "title": "six",
-      "details": "I'm six",
-      "percentComplete": 71,
+      "details": "jscglsdgclsdg",
+      "percentComplete": 57,
       "approved": true
     }
   ]

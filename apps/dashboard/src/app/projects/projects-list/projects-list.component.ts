@@ -9,6 +9,7 @@ import { Project } from '@workshop/core-data';
 export class ProjectsListComponent implements OnInit {
   @Input() projects: Project[];
   @Input()readonly:false[];
+  @Output()cancelled = new EventEmitter();
   @Output()selected = new EventEmitter();
   @Output()deleted = new EventEmitter();
 

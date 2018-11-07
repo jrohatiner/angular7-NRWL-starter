@@ -61,15 +61,19 @@ export class ProjectsComponent implements OnInit {
       .subscribe(result => {
         this.getProjects();
         this.resetProject();
+
       });
   }
 
-  deleteProject(project) {
+ deleteProject(project) {
     this.projectsService.delete(project.id)
       .subscribe(result => this.getProjects());
   }
 
   cancel() {
     this.resetProject();
+    this.deleteProject(this.cancel());
   }
+
+
 }
