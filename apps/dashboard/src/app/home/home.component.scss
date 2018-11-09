@@ -1,6 +1,6 @@
-/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-*/
+
 
 .mat-background-secondary {
   background-color: lightyellow;
@@ -24,4 +24,25 @@
   color: white;
   font-size: 1em;
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.48);
+}
+
+
+.shrine-select-item-divider .mdc-list-divider {
+  color: black;
+
+}
+table {
+  width: 100%;
+  border: 1px solid mediumpurple;
+}
+tr {
+  color: black;
+  border: 1px solid mediumpurple;
+}
+th,td {
+  color: black;
+  border: 1px solid mediumpurple;
+}
+#mytable{
+  padding: 50px;
 }

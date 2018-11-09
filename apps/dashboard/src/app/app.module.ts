@@ -7,11 +7,23 @@ import { NxModule } from '@nrwl/nx';
 import { MaterialModule } from '@workshop/material';
 import { UiLoginModule } from '@workshop/ui-login';
 
+import { GetstartedComponent} from './documentation/getstarted/getstarted.component';
+import {PartoneComponent} from './documentation/partone/partone.component';
+import {ParttwoComponent} from './documentation/parttwo/parttwo.component';
+import {PartthreeComponent} from './documentation/partthree/partthree.component';
+import { DocumentationComponent} from './documentation/documentation.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    DocumentationComponent,
+    GetstartedComponent,
+    PartoneComponent,
+    ParttwoComponent,
+    PartthreeComponent
+  ],
   imports: [
     BrowserModule,
     NxModule.forRoot(),
@@ -20,7 +32,7 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     MaterialModule,
     UiLoginModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

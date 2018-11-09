@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTab, MatTabsModule } from '@angular/material';
 
-import { GetstartedRoutingModule } from './getstarted-routing.module';
 import { GetstartedComponent } from './getstarted.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    GetstartedRoutingModule
+    MatTabsModule
   ],
 
-  declarations: [GetstartedComponent],
+  declarations: [GetstartedComponent, GetstartedModule],
 
 })
 export class GetstartedModule { }
