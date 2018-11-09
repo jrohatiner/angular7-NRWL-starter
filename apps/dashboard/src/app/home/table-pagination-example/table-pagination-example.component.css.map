@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,KAAK,EAAE,IAAI",
+"sources": ["table-pagination-example.component.scss"],
+"names": [],
+"file": "table-pagination-example.component.css"
+}

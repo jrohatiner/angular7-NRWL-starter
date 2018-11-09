@@ -1,0 +1,33 @@
+<div class="mat-elevation-z8">
+  <table mat-table>
+
+    <!-- Position Column -->
+    <ng-container>
+      <th mat-header-cell>position</th>
+      <td mat-cell>position</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container>
+      <th mat-header-cell> Name </th>
+      <td mat-cell> name </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container>
+      <th mat-header-cell> Weight </th>
+      <td mat-cell>weight</td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container>
+      <th mat-header-cell> Symbol </th>
+      <td mat-cell>symbol</td>
+    </ng-container>
+
+    <tr mat-header-row></tr>
+    <tr mat-row></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+</div>
