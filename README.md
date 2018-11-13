@@ -1,12 +1,12 @@
-# Angular Core Workshop
+# Angular 7 NRWL Starter
 
-We are going to use the Angular CLI and NRWL Extensions extensively in the workshop to streamline development and free us up to focus on core concepts.
+Angular CLI and NRWL Extensions are used to streamline development.
 
 Follow the steps below to get started!
 
 ## Getting Started
 
-An Nx workspace is an Angular CLI project that has been enhanced to be enterprise ready. Being an Angular CLI project means it will be handy to have the Angular CLI installed globally, which can be done via npm or yarn as well.
+An Nx workspace is an Angular CLI project. Install the Angular CLI globally using npm or yarn.
 
 ```
 npm install -g @angular/cli
@@ -26,4 +26,4 @@ After installing it you can create a new Nx workspace by running:
 create-nx-workspace angular-core-workshop
 ```
 
-You are good to go!
+Have at it!

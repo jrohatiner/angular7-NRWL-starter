@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule' },
   { path: 'documentation', component: DocumentationComponent },
   { path: 'getstarted', component: GetstartedComponent },
-  { path: 'Partone', component: PartoneComponent },
+  { path: 'partone', component: PartoneComponent },
   { path: 'parttwo', component: ParttwoComponent },
   { path: 'partthree', component: PartthreeComponent },
   { path: 'login', component: LoginComponent },

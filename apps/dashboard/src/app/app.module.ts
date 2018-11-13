@@ -14,6 +14,7 @@ import {PartthreeComponent} from './documentation/partthree/partthree.component'
 import { DocumentationComponent} from './documentation/documentation.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UiToolbarModule } from '@workshop/ui-toolbar';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     MaterialModule,
     UiLoginModule,
+    UiToolbarModule,
     AppRoutingModule
   ],
   providers: [],

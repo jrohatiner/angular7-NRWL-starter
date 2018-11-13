@@ -1,10 +1,17 @@
 
 <section id="mat-backgrnd-seven">
-  <p>here is a paragraph filled with words</p>
-  <p>docs works</p>
-  <button class="mat-button" [routerLink]="['./partone']">
-    Part One
-  </button>
+  <div class="col-90">
+    <mat-card>Simple card
+      <mat-card-title>Partone Works</mat-card-title>
+      <mat-card-subtitle>docs works</mat-card-subtitle>
+      <mat-card-content>
+        Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+      </mat-card-content>
+      <mat-card-footer><button class="mat-button" [routerLink]="['./partone']">
+        Part One
+      </button></mat-card-footer>
+    </mat-card>
+  </div>
 </section>
 <div class="app-content">
   <router-outlet></router-outlet>
